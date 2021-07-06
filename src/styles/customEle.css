@@ -1,0 +1,45 @@
+.el-tabs__header {
+  margin: 0;
+}
+
+.el-tabs__nav {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.el-tabs__item {
+  flex: 1;
+  text-align: center;
+}
+
+.el-tabs__content,
+.el-tab-pane,
+.el-menu {
+  height: 100%;
+}
+
+.el-table th {
+  text-align: center;
+  background-color: #e7edf9;
+}
+
+.el-table .cell {
+  text-align: center;
+}
+
+.el-table {
+  -ms-flex: none !important;
+  flex: none !important;
+  height: max-content;
+}
+.el-input__inner{
+  padding:0 0.45rem 0 0.15rem;
+}
+.el-textarea{
+  width: 53%;
+}
+.el-textarea__inner{
+  min-height: 0.4rem!important;
+  padding:0.07rem 0.35rem 0 0.15rem;
+}
