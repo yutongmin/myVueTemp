@@ -1,0 +1,98 @@
+.common_flex {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+/* Tag */
+.task_type_tag {
+  content: '';
+  display: block;
+  height: 0;
+  border-width: 0px 0.15rem 0.15rem;
+  border-style: none solid solid;
+  border-color: transparent transparent #51a4fe;
+  position: absolute;
+  transform: rotate(45deg); /*chrome浏览器*/
+  right: -0.19rem;
+  top: 0.18rem;
+  width: 0.6rem;
+  color: #fff;
+  font-size: 0.12rem;
+  text-align: center;
+  line-height: 0.17rem;
+}
+/* Tag Color */
+.tag_border_color__1988FE {
+  border-color: transparent transparent #1988fe;
+}
+
+.tag_border_color__1FCFF9 {
+  border-color: transparent transparent #1fcff9;
+}
+
+.tag_border_color__F6CE21 {
+  border-color: transparent transparent #f6ce21;
+}
+
+.tag_border_color__26F2C1 {
+  border-color: transparent transparent #26f2c1;
+}
+
+.tag_border_color__4BB6E5 {
+  border-color: transparent transparent #4bb6e5;
+}
+
+.tag_border_color__499AE8 {
+  border-color: transparent transparent #499ae8;
+}
+
+/* 配件类型为玻璃的提示语样式 */
+.partTypeTips {
+  padding: 0.1rem 0.16rem;
+  display: flex;
+  align-items: center;
+  color: #232323;
+  background-color: #fff;
+}
+.partTypeTips i {
+  margin: 0 0.02rem 0.02rem 0;
+}
+/* 配件类型为玻璃的提示语样式 end */
+
+.break_all {
+  word-break: break-all;
+}
+
+/* 模块之间的缝隙 */
+.modulesGrap {
+  margin-top: 0.1rem;
+}
+/* 模块图标 */
+.slotImg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgShow {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-right: 0.1rem;
+}
+
+.el-tree-node__content {
+  height: 0.45rem;
+}
+
+.el-tree-node__label{
+  font-size: 0.18rem;
+}
+
+.el-tree-node.is-current > .el-tree-node__content {
+  background: #f0f4ff;
+  color: #3c77fe;
+  font-weight: bold;
+}
