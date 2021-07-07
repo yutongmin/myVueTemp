@@ -59,6 +59,9 @@ module.exports = {
   transpileDependencies: [], // 默认babel-loader忽略mode_modules，这里可增加例外的依赖包名
   productionSourceMap: false, // 是否在构建生产包时生成 sourceMap 文件，false将提高构建速度
 
+  // outputDir: "dist", // 构建时的输出目录
+  // indexPath: "index.html",
+
   configureWebpack: (config) => {
     // webpack配置，值为对象时会合并配置，为方法时会改写配置
     config.module.unknownContextCritical = false

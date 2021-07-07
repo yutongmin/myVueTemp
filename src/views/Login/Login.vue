@@ -1,6 +1,6 @@
 <template>
   <div class="">
-   Header
+   Login
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 
   } 
 })
-export default class Header extends Vue {
+export default class Login extends Vue {
 
   
 }
