@@ -11,7 +11,7 @@ export default {
   name: 'app',
   data () {
     return {
-      routerArr: [{ name: 'myHome' }]
+      routerArr: [{ name: 'Login' }]
     }
   },
   watch: {
@@ -27,11 +27,30 @@ export default {
 }
 </script>
 <style lang="less">
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "SourceHanSansCN-Regular", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  background-color: #fff;
+  font-size: 0.15rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 </style>

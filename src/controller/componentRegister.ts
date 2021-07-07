@@ -6,7 +6,7 @@ import { toMidLine } from "@/utils/commonTools";
 const req: any = require;
 const requireComponent = req.context(
   // 其组件目录的相对路径
-  "@/components",
+  "@/components/base",
   // 是否查询其子目录
   false
 );
